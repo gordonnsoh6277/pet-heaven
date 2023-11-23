@@ -34,7 +34,7 @@ const ContactUs = () =>
   });
 
   //useState to manage visibility of adoption details section
-  const [showAdoptionDetails, setShowAdoptionDetails] = useState (false); 
+  const [showAdoptionDetails, setShowAdoptionDetails] = useState (false);
 
   //handler for input changes
   const handleChange = (e) =>
@@ -314,7 +314,7 @@ const ContactUs = () =>
           <div className = "error-message">{formError.enquiryType}</div>
         </div>
 
-        <br/>
+        <br></br>
         
         {/* Textarea for additional information or message with dynamic label*/}
         <div className = 'message-container'>
