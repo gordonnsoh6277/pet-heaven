@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './ContactUs.css';
 
@@ -203,7 +203,6 @@ const ContactUs = () =>
         address: '',
         enquiryType: '',
         message: '',
-        selectedPet: '',
       });
 
       //displays a success message
@@ -265,7 +264,6 @@ const ContactUs = () =>
 
         <label>
           Enquiry Type
-          <div className = "error-message">{formError.enquiryType}</div>
         </label>
         <br/>
         <div className = "radio-options">
@@ -313,16 +311,19 @@ const ContactUs = () =>
             />
             <label htmlFor = "adoption">Release Pet</label>
           </div>
+          <div className = "error-message">{formError.enquiryType}</div>
         </div>
 
         <br/>
         
         {/* Textarea for additional information or message with dynamic label*/}
-        <label className = 'message-label'>
-          {formData.enquiryType ===  'release' ? 'Why do you wish to release your pet?' : 'Message'}
-          <textarea name = "message" value = {formData.message} onChange = {handleChange}/>
-          <div className = "error-message">{formError.message}</div>
-        </label>
+        <div className = 'message-container'>
+          <label>
+            {formData.enquiryType ===  'release' ? 'Why do you wish to release your pet?' : 'Message'}
+            <textarea name = "message" value = {formData.message} onChange = {handleChange}/>
+            <div className = "error-message">{formError.message}</div>
+          </label>
+        </div>
 
         <br/>
 

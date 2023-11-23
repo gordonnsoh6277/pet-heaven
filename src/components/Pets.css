@@ -78,7 +78,7 @@
 {
   transform: rotateY(180deg);
   background-color: transparent;
-  margin: -45px;
+  margin: -40px;
 }
 
 .card-front h6, .card-back h6
