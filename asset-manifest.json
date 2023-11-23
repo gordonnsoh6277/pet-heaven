@@ -1,15 +1,28 @@
 {
   "files": {
     "main.css": "/pet-heaven/static/css/main.b24ee031.css",
-    "main.js": "/pet-heaven/static/js/main.e1a35657.js",
+    "main.js": "/pet-heaven/static/js/main.c666e293.js",
     "static/js/787.2a3bd1d7.chunk.js": "/pet-heaven/static/js/787.2a3bd1d7.chunk.js",
+    "static/media/staff6.jpg": "/pet-heaven/static/media/staff6.440297d99d1fc1f76fb6.jpg",
+    "static/media/cta.jpg": "/pet-heaven/static/media/cta.3a6f99cfe5916a98730b.jpg",
+    "static/media/facility.jpg": "/pet-heaven/static/media/facility.cf94ac5e2eb3af86d500.jpg",
+    "static/media/staff1.jpg": "/pet-heaven/static/media/staff1.485054bb7ac929722a52.jpg",
+    "static/media/background1.jpg": "/pet-heaven/static/media/background1.22da6eaea074c11616eb.jpg",
+    "static/media/founder.jpg": "/pet-heaven/static/media/founder.09597cc2babb72eac654.jpg",
+    "static/media/mission.jpg": "/pet-heaven/static/media/mission.a6252cc71dbf5e8df28b.jpg",
+    "static/media/staff5.jpg": "/pet-heaven/static/media/staff5.255637edd78a011584ad.jpg",
+    "static/media/staff4.jpg": "/pet-heaven/static/media/staff4.8d3899142a668591c109.jpg",
+    "static/media/staff3.jpg": "/pet-heaven/static/media/staff3.f359cb74150f6777b367.jpg",
+    "static/media/staff8.jpg": "/pet-heaven/static/media/staff8.eabfcb33e712e08202b6.jpg",
+    "static/media/staff7.jpg": "/pet-heaven/static/media/staff7.6f49c24d7c73615ac9f5.jpg",
+    "static/media/staff2.jpg": "/pet-heaven/static/media/staff2.c29cec6b5881349fe63e.jpg",
     "index.html": "/pet-heaven/index.html",
     "main.b24ee031.css.map": "/pet-heaven/static/css/main.b24ee031.css.map",
-    "main.e1a35657.js.map": "/pet-heaven/static/js/main.e1a35657.js.map",
+    "main.c666e293.js.map": "/pet-heaven/static/js/main.c666e293.js.map",
     "787.2a3bd1d7.chunk.js.map": "/pet-heaven/static/js/787.2a3bd1d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b24ee031.css",
-    "static/js/main.e1a35657.js"
+    "static/js/main.c666e293.js"
   ]
 }
