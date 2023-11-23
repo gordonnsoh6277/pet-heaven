@@ -1,0 +1,28 @@
+/* NavBar.css */
+
+.menuitem
+{
+    display: flex;
+    align-items: center;
+}
+  
+.logo
+{
+    margin-right: 10px; /* Add margin to separate the logo from the links */
+}
+  
+.centered-links
+{
+    display: flex;
+    justify-content: center; /* Center the links horizontally */
+    align-items: center;
+    flex-grow: 1; /* Allow the links to take up remaining space */
+}
+  
+/* Additional styling for the links (you can adjust as needed) */
+.menuitem a
+{
+    text-decoration: none;
+    margin: 0 10px; /* Add margin between links */
+}
+  
